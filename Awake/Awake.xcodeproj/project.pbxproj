@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B712775A19FB32DF00CD813A /* AlarmText.m in Sources */ = {isa = PBXBuildFile; fileRef = B712775919FB32DF00CD813A /* AlarmText.m */; };
+		B72DD36919E524D6002C79F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72DD36819E524D6002C79F4 /* main.m */; };
+		B72DD36C19E524D6002C79F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B72DD36B19E524D6002C79F4 /* AppDelegate.m */; };
+		B72DD36F19E524D6002C79F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72DD36E19E524D6002C79F4 /* ViewController.m */; };
+		B739BCD919F6E58F00B08407 /* TimeHasChanged.m in Sources */ = {isa = PBXBuildFile; fileRef = B739BCD819F6E58F00B08407 /* TimeHasChanged.m */; };
+		B739BCDC19F6E6C600B08407 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = B739BCDB19F6E6C600B08407 /* HomePage.m */; };
+		B739BCDF19F6FEC600B08407 /* AddSign.m in Sources */ = {isa = PBXBuildFile; fileRef = B739BCDE19F6FEC600B08407 /* AddSign.m */; };
+		B739BCE219F6FEE800B08407 /* AlarmList.m in Sources */ = {isa = PBXBuildFile; fileRef = B739BCE119F6FEE800B08407 /* AlarmList.m */; };
+		B739BCE519F6FF0300B08407 /* SettingsSign.m in Sources */ = {isa = PBXBuildFile; fileRef = B739BCE419F6FF0300B08407 /* SettingsSign.m */; };
+		B745D0891A68E22000FC80B7 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B745D0881A68E22000FC80B7 /* SettingsViewController.m */; };
+		B760F2BF1A9D2EF7004DF23D /* SleepMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = B760F2BE1A9D2EF7004DF23D /* SleepMusic.m */; };
+		B76117471A23BB31008E12A8 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = B76117461A23BB31008E12A8 /* Colors.m */; };
+		B762CDA71A2E8EE200769E12 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B762CDA61A2E8EE100769E12 /* NotificationCenter.framework */; };
+		B765DA091AAA127300CF9A90 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B765DA081AAA127300CF9A90 /* ProgressView.m */; };
+		B765DA0C1AAA128500CF9A90 /* SlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = B765DA0B1AAA128500CF9A90 /* SlideView.m */; };
+		B772597619E5EA67007ED0B3 /* AlarmHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B772597519E5EA67007ED0B3 /* AlarmHolder.m */; };
+		B772598019E5EAA0007ED0B3 /* BaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B772597F19E5EAA0007ED0B3 /* BaseEvent.m */; };
+		B78F387D1A841E49009F5F1B /* NA_WeekUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = B78F387C1A841E49009F5F1B /* NA_WeekUnit.m */; };
+		B790DA0619E59B0F004C3542 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = B790DA0519E59B0F004C3542 /* Background.m */; };
+		B790DA0C19E59C2A004C3542 /* GetTimeInFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B790DA0B19E59C2A004C3542 /* GetTimeInFormat.m */; };
+		B7992EB71A000F260083AD1A /* NewAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7992EB61A000F260083AD1A /* NewAlarmViewController.m */; };
+		B7992EC61A0014240083AD1A /* NA_TimeUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = B7992EC51A0014240083AD1A /* NA_TimeUnit.m */; };
+		B7AECE681A05719A003480BD /* NA_CancelSign.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AECE671A05719A003480BD /* NA_CancelSign.m */; };
+		B7AECE6B1A0571AB003480BD /* NA_ConfirmSign.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AECE6A1A0571AB003480BD /* NA_ConfirmSign.m */; };
+		B7B8B4631A1EA1410072DF61 /* ListAlarmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B8B4621A1EA1410072DF61 /* ListAlarmsViewController.m */; };
+		B7B948FA1A3E4B2F006AE495 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B948EF1A3E4B2F006AE495 /* NSMutableArray+SWUtilityButtons.m */; };
+		B7B948FB1A3E4B2F006AE495 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B948F11A3E4B2F006AE495 /* SWCellScrollView.m */; };
+		B7B948FC1A3E4B2F006AE495 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B948F31A3E4B2F006AE495 /* SWLongPressGestureRecognizer.m */; };
+		B7B948FD1A3E4B2F006AE495 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B948F51A3E4B2F006AE495 /* SWTableViewCell.m */; settings = {COMPILER_FLAGS = "-Wno-"; }; };
+		B7B948FE1A3E4B2F006AE495 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B948F71A3E4B2F006AE495 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		B7B948FF1A3E4B2F006AE495 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B948F91A3E4B2F006AE495 /* SWUtilityButtonView.m */; };
+		B7BC73391A35030F006AA60E /* TableAlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BC73381A35030F006AA60E /* TableAlarmCell.m */; };
+		B7C02EA31A8AC7C900B19211 /* AlarmStyleButtonsHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C02EA21A8AC7C900B19211 /* AlarmStyleButtonsHolder.m */; };
+		B7C02EA61A8AC93E00B19211 /* AlarmStyleButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C02EA51A8AC93E00B19211 /* AlarmStyleButtons.m */; };
+		B7C02EA91A8ADDCC00B19211 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C02EA81A8ADDCC00B19211 /* Images.xcassets */; };
+		B7C02EAF1A8AE92500B19211 /* SettingsPlistHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C02EAE1A8AE92500B19211 /* SettingsPlistHandler.m */; };
+		B7C3439F1A97FBB100A510F9 /* AlarmSounds.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C3439E1A97FBB100A510F9 /* AlarmSounds.m */; };
+		B7DBB41B1A17FF76009A5B15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DBB41A1A17FF76009A5B15 /* Default-568h@2x.png */; };
+		B7E9769019F0727500117C0C /* FileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E9768F19F0727500117C0C /* FileHandler.m */; };
+		B7F0FDB61A61F6AE005545B7 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F0FDB51A61F6AE005545B7 /* AudioController.m */; };
+		B7F0FDE01A633BEA005545B7 /* wakeFadeTemp.aif in Resources */ = {isa = PBXBuildFile; fileRef = B7F0FDDE1A633BEA005545B7 /* wakeFadeTemp.aif */; };
+		B7F0FDE11A633BEA005545B7 /* wakeTemp.aif in Resources */ = {isa = PBXBuildFile; fileRef = B7F0FDDF1A633BEA005545B7 /* wakeTemp.aif */; };
+		B7FF5C1B19FC17CA00540117 /* SecondsBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5C1A19FC17CA00540117 /* SecondsBar.m */; };
+		B7FF5C1E19FC546D00540117 /* SecondsBarGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FF5C1D19FC546D00540117 /* SecondsBarGradient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B712775819FB32DF00CD813A /* AlarmText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmText.h; sourceTree = "<group>"; };
+		B712775919FB32DF00CD813A /* AlarmText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmText.m; sourceTree = "<group>"; };
+		B72DD36319E524D6002C79F4 /* Awake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Awake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72DD36719E524D6002C79F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72DD36819E524D6002C79F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B72DD36A19E524D6002C79F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B72DD36B19E524D6002C79F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B72DD36D19E524D6002C79F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B72DD36E19E524D6002C79F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B72DD38119E524D6002C79F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72DD38219E524D6002C79F4 /* AwakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwakeTests.m; sourceTree = "<group>"; };
+		B739BCD719F6E58F00B08407 /* TimeHasChanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeHasChanged.h; sourceTree = "<group>"; };
+		B739BCD819F6E58F00B08407 /* TimeHasChanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeHasChanged.m; sourceTree = "<group>"; };
+		B739BCDA19F6E6C500B08407 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		B739BCDB19F6E6C600B08407 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		B739BCDD19F6FEC600B08407 /* AddSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSign.h; sourceTree = "<group>"; };
+		B739BCDE19F6FEC600B08407 /* AddSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSign.m; sourceTree = "<group>"; };
+		B739BCE019F6FEE800B08407 /* AlarmList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmList.h; sourceTree = "<group>"; };
+		B739BCE119F6FEE800B08407 /* AlarmList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmList.m; sourceTree = "<group>"; };
+		B739BCE319F6FF0300B08407 /* SettingsSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsSign.h; sourceTree = "<group>"; };
+		B739BCE419F6FF0300B08407 /* SettingsSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsSign.m; sourceTree = "<group>"; };
+		B745D0871A68E22000FC80B7 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B745D0881A68E22000FC80B7 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B760F2BD1A9D2EF7004DF23D /* SleepMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepMusic.h; sourceTree = "<group>"; };
+		B760F2BE1A9D2EF7004DF23D /* SleepMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepMusic.m; sourceTree = "<group>"; };
+		B76117451A23BB31008E12A8 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		B76117461A23BB31008E12A8 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
+		B76117481A23BDC0008E12A8 /* gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gradient.h; sourceTree = "<group>"; };
+		B762CDA61A2E8EE100769E12 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		B765DA071AAA127300CF9A90 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		B765DA081AAA127300CF9A90 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		B765DA0A1AAA128500CF9A90 /* SlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideView.h; sourceTree = "<group>"; };
+		B765DA0B1AAA128500CF9A90 /* SlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideView.m; sourceTree = "<group>"; };
+		B772597419E5EA67007ED0B3 /* AlarmHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmHolder.h; sourceTree = "<group>"; };
+		B772597519E5EA67007ED0B3 /* AlarmHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmHolder.m; sourceTree = "<group>"; };
+		B772597E19E5EAA0007ED0B3 /* BaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEvent.h; sourceTree = "<group>"; };
+		B772597F19E5EAA0007ED0B3 /* BaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEvent.m; sourceTree = "<group>"; };
+		B78F387B1A841E49009F5F1B /* NA_WeekUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NA_WeekUnit.h; sourceTree = "<group>"; };
+		B78F387C1A841E49009F5F1B /* NA_WeekUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NA_WeekUnit.m; sourceTree = "<group>"; };
+		B790DA0419E59B0F004C3542 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		B790DA0519E59B0F004C3542 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
+		B790DA0A19E59C2A004C3542 /* GetTimeInFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTimeInFormat.h; sourceTree = "<group>"; };
+		B790DA0B19E59C2A004C3542 /* GetTimeInFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTimeInFormat.m; sourceTree = "<group>"; };
+		B7992EB51A000F260083AD1A /* NewAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAlarmViewController.h; sourceTree = "<group>"; };
+		B7992EB61A000F260083AD1A /* NewAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAlarmViewController.m; sourceTree = "<group>"; };
+		B7992EC41A0014240083AD1A /* NA_TimeUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NA_TimeUnit.h; sourceTree = "<group>"; };
+		B7992EC51A0014240083AD1A /* NA_TimeUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NA_TimeUnit.m; sourceTree = "<group>"; };
+		B7AECE661A05719A003480BD /* NA_CancelSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NA_CancelSign.h; sourceTree = "<group>"; };
+		B7AECE671A05719A003480BD /* NA_CancelSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NA_CancelSign.m; sourceTree = "<group>"; };
+		B7AECE691A0571AB003480BD /* NA_ConfirmSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NA_ConfirmSign.h; sourceTree = "<group>"; };
+		B7AECE6A1A0571AB003480BD /* NA_ConfirmSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NA_ConfirmSign.m; sourceTree = "<group>"; };
+		B7B8B4611A1EA1410072DF61 /* ListAlarmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAlarmsViewController.h; sourceTree = "<group>"; };
+		B7B8B4621A1EA1410072DF61 /* ListAlarmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListAlarmsViewController.m; sourceTree = "<group>"; };
+		B7B948EE1A3E4B2F006AE495 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		B7B948EF1A3E4B2F006AE495 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		B7B948F01A3E4B2F006AE495 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		B7B948F11A3E4B2F006AE495 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		B7B948F21A3E4B2F006AE495 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		B7B948F31A3E4B2F006AE495 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		B7B948F41A3E4B2F006AE495 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		B7B948F51A3E4B2F006AE495 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		B7B948F61A3E4B2F006AE495 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		B7B948F71A3E4B2F006AE495 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		B7B948F81A3E4B2F006AE495 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		B7B948F91A3E4B2F006AE495 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		B7BC73371A35030F006AA60E /* TableAlarmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableAlarmCell.h; sourceTree = "<group>"; };
+		B7BC73381A35030F006AA60E /* TableAlarmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableAlarmCell.m; sourceTree = "<group>"; };
+		B7BD77981AA7DCFB00F4FC99 /* AnimationDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDefines.h; sourceTree = "<group>"; };
+		B7C02EA11A8AC7C900B19211 /* AlarmStyleButtonsHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmStyleButtonsHolder.h; sourceTree = "<group>"; };
+		B7C02EA21A8AC7C900B19211 /* AlarmStyleButtonsHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmStyleButtonsHolder.m; sourceTree = "<group>"; };
+		B7C02EA41A8AC93E00B19211 /* AlarmStyleButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmStyleButtons.h; sourceTree = "<group>"; };
+		B7C02EA51A8AC93E00B19211 /* AlarmStyleButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmStyleButtons.m; sourceTree = "<group>"; };
+		B7C02EA81A8ADDCC00B19211 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7C02EAD1A8AE92500B19211 /* SettingsPlistHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsPlistHandler.h; sourceTree = "<group>"; };
+		B7C02EAE1A8AE92500B19211 /* SettingsPlistHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsPlistHandler.m; sourceTree = "<group>"; };
+		B7C3439D1A97FBB100A510F9 /* AlarmSounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmSounds.h; sourceTree = "<group>"; };
+		B7C3439E1A97FBB100A510F9 /* AlarmSounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmSounds.m; sourceTree = "<group>"; };
+		B7DBB41A1A17FF76009A5B15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		B7E9768E19F0727500117C0C /* FileHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandler.h; sourceTree = "<group>"; };
+		B7E9768F19F0727500117C0C /* FileHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandler.m; sourceTree = "<group>"; };
+		B7F0FDB41A61F6AE005545B7 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		B7F0FDB51A61F6AE005545B7 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		B7F0FDDE1A633BEA005545B7 /* wakeFadeTemp.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = wakeFadeTemp.aif; sourceTree = "<group>"; };
+		B7F0FDDF1A633BEA005545B7 /* wakeTemp.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = wakeTemp.aif; sourceTree = "<group>"; };
+		B7FF5C1919FC17CA00540117 /* SecondsBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondsBar.h; sourceTree = "<group>"; };
+		B7FF5C1A19FC17CA00540117 /* SecondsBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondsBar.m; sourceTree = "<group>"; };
+		B7FF5C1C19FC546D00540117 /* SecondsBarGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondsBarGradient.h; sourceTree = "<group>"; };
+		B7FF5C1D19FC546D00540117 /* SecondsBarGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondsBarGradient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72DD36019E524D6002C79F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B762CDA71A2E8EE200769E12 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72DD35A19E524D6002C79F4 = {
+			isa = PBXGroup;
+			children = (
+				B72DD36519E524D6002C79F4 /* Awake */,
+				B72DD37F19E524D6002C79F4 /* AwakeTests */,
+				B72DD36419E524D6002C79F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72DD36419E524D6002C79F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72DD36319E524D6002C79F4 /* Awake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72DD36519E524D6002C79F4 /* Awake */ = {
+			isa = PBXGroup;
+			children = (
+				B72DD36A19E524D6002C79F4 /* AppDelegate.h */,
+				B72DD36B19E524D6002C79F4 /* AppDelegate.m */,
+				B772597D19E5EA8C007ED0B3 /* Model */,
+				B772597319E5EA0A007ED0B3 /* View Controllers */,
+				B772596819E5E9B1007ED0B3 /* Views */,
+				B772596919E5E9B6007ED0B3 /* Helpers */,
+				B72DD36619E524D6002C79F4 /* Supporting Files */,
+			);
+			path = Awake;
+			sourceTree = "<group>";
+		};
+		B72DD36619E524D6002C79F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0FDDE1A633BEA005545B7 /* wakeFadeTemp.aif */,
+				B7F0FDDF1A633BEA005545B7 /* wakeTemp.aif */,
+				B7DBB41A1A17FF76009A5B15 /* Default-568h@2x.png */,
+				B762CDA61A2E8EE100769E12 /* NotificationCenter.framework */,
+				B72DD36719E524D6002C79F4 /* Info.plist */,
+				B7C02EA81A8ADDCC00B19211 /* Images.xcassets */,
+				B72DD36819E524D6002C79F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B72DD37F19E524D6002C79F4 /* AwakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B72DD38219E524D6002C79F4 /* AwakeTests.m */,
+				B72DD38019E524D6002C79F4 /* Supporting Files */,
+			);
+			path = AwakeTests;
+			sourceTree = "<group>";
+		};
+		B72DD38019E524D6002C79F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72DD38119E524D6002C79F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B772596819E5E9B1007ED0B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7B800F71A85546700B8E56C /* Multiple Pages */,
+				B7992EB81A000F2D0083AD1A /* HomePage */,
+				B7992EBA1A0011A90083AD1A /* NewAlarms */,
+				B7B8B4671A1EA1F10072DF61 /* List Alarms */,
+				B7C02EA71A8AC95000B19211 /* Settings */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B772596919E5E9B6007ED0B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B790DA0A19E59C2A004C3542 /* GetTimeInFormat.h */,
+				B790DA0B19E59C2A004C3542 /* GetTimeInFormat.m */,
+				B739BCD719F6E58F00B08407 /* TimeHasChanged.h */,
+				B739BCD819F6E58F00B08407 /* TimeHasChanged.m */,
+				B7F0FDB41A61F6AE005545B7 /* AudioController.h */,
+				B7F0FDB51A61F6AE005545B7 /* AudioController.m */,
+				B76117451A23BB31008E12A8 /* Colors.h */,
+				B76117461A23BB31008E12A8 /* Colors.m */,
+				B76117481A23BDC0008E12A8 /* gradient.h */,
+				B7BD77981AA7DCFB00F4FC99 /* AnimationDefines.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B772597319E5EA0A007ED0B3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B72DD36D19E524D6002C79F4 /* ViewController.h */,
+				B72DD36E19E524D6002C79F4 /* ViewController.m */,
+				B7992EB51A000F260083AD1A /* NewAlarmViewController.h */,
+				B7992EB61A000F260083AD1A /* NewAlarmViewController.m */,
+				B7B8B4611A1EA1410072DF61 /* ListAlarmsViewController.h */,
+				B7B8B4621A1EA1410072DF61 /* ListAlarmsViewController.m */,
+				B745D0871A68E22000FC80B7 /* SettingsViewController.h */,
+				B745D0881A68E22000FC80B7 /* SettingsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B772597D19E5EA8C007ED0B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7E9768E19F0727500117C0C /* FileHandler.h */,
+				B7E9768F19F0727500117C0C /* FileHandler.m */,
+				B7C02EAD1A8AE92500B19211 /* SettingsPlistHandler.h */,
+				B7C02EAE1A8AE92500B19211 /* SettingsPlistHandler.m */,
+				B772597E19E5EAA0007ED0B3 /* BaseEvent.h */,
+				B772597F19E5EAA0007ED0B3 /* BaseEvent.m */,
+				B772597419E5EA67007ED0B3 /* AlarmHolder.h */,
+				B772597519E5EA67007ED0B3 /* AlarmHolder.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B7992EB81A000F2D0083AD1A /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				B739BCDA19F6E6C500B08407 /* HomePage.h */,
+				B739BCDB19F6E6C600B08407 /* HomePage.m */,
+				B739BCE019F6FEE800B08407 /* AlarmList.h */,
+				B739BCE119F6FEE800B08407 /* AlarmList.m */,
+				B739BCE319F6FF0300B08407 /* SettingsSign.h */,
+				B739BCE419F6FF0300B08407 /* SettingsSign.m */,
+				B712775819FB32DF00CD813A /* AlarmText.h */,
+				B712775919FB32DF00CD813A /* AlarmText.m */,
+				B7FF5C1919FC17CA00540117 /* SecondsBar.h */,
+				B7FF5C1A19FC17CA00540117 /* SecondsBar.m */,
+				B7FF5C1C19FC546D00540117 /* SecondsBarGradient.h */,
+				B7FF5C1D19FC546D00540117 /* SecondsBarGradient.m */,
+				B765DA0A1AAA128500CF9A90 /* SlideView.h */,
+				B765DA0B1AAA128500CF9A90 /* SlideView.m */,
+				B765DA071AAA127300CF9A90 /* ProgressView.h */,
+				B765DA081AAA127300CF9A90 /* ProgressView.m */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		B7992EBA1A0011A90083AD1A /* NewAlarms */ = {
+			isa = PBXGroup;
+			children = (
+				B7992EC41A0014240083AD1A /* NA_TimeUnit.h */,
+				B7992EC51A0014240083AD1A /* NA_TimeUnit.m */,
+				B78F387B1A841E49009F5F1B /* NA_WeekUnit.h */,
+				B78F387C1A841E49009F5F1B /* NA_WeekUnit.m */,
+			);
+			name = NewAlarms;
+			sourceTree = "<group>";
+		};
+		B7B800F71A85546700B8E56C /* Multiple Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B790DA0419E59B0F004C3542 /* Background.h */,
+				B790DA0519E59B0F004C3542 /* Background.m */,
+				B739BCDD19F6FEC600B08407 /* AddSign.h */,
+				B739BCDE19F6FEC600B08407 /* AddSign.m */,
+				B7AECE691A0571AB003480BD /* NA_ConfirmSign.h */,
+				B7AECE6A1A0571AB003480BD /* NA_ConfirmSign.m */,
+				B7AECE661A05719A003480BD /* NA_CancelSign.h */,
+				B7AECE671A05719A003480BD /* NA_CancelSign.m */,
+			);
+			name = "Multiple Pages";
+			sourceTree = "<group>";
+		};
+		B7B8B4671A1EA1F10072DF61 /* List Alarms */ = {
+			isa = PBXGroup;
+			children = (
+				B7BFA5B01A3D176300648484 /* SWTableViewCell */,
+				B7BC73371A35030F006AA60E /* TableAlarmCell.h */,
+				B7BC73381A35030F006AA60E /* TableAlarmCell.m */,
+			);
+			name = "List Alarms";
+			sourceTree = "<group>";
+		};
+		B7BFA5B01A3D176300648484 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B7B948EE1A3E4B2F006AE495 /* NSMutableArray+SWUtilityButtons.h */,
+				B7B948EF1A3E4B2F006AE495 /* NSMutableArray+SWUtilityButtons.m */,
+				B7B948F01A3E4B2F006AE495 /* SWCellScrollView.h */,
+				B7B948F11A3E4B2F006AE495 /* SWCellScrollView.m */,
+				B7B948F21A3E4B2F006AE495 /* SWLongPressGestureRecognizer.h */,
+				B7B948F31A3E4B2F006AE495 /* SWLongPressGestureRecognizer.m */,
+				B7B948F41A3E4B2F006AE495 /* SWTableViewCell.h */,
+				B7B948F51A3E4B2F006AE495 /* SWTableViewCell.m */,
+				B7B948F61A3E4B2F006AE495 /* SWUtilityButtonTapGestureRecognizer.h */,
+				B7B948F71A3E4B2F006AE495 /* SWUtilityButtonTapGestureRecognizer.m */,
+				B7B948F81A3E4B2F006AE495 /* SWUtilityButtonView.h */,
+				B7B948F91A3E4B2F006AE495 /* SWUtilityButtonView.m */,
+			);
+			name = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		B7C02EA71A8AC95000B19211 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B7C02EA11A8AC7C900B19211 /* AlarmStyleButtonsHolder.h */,
+				B7C02EA21A8AC7C900B19211 /* AlarmStyleButtonsHolder.m */,
+				B7C02EA41A8AC93E00B19211 /* AlarmStyleButtons.h */,
+				B7C02EA51A8AC93E00B19211 /* AlarmStyleButtons.m */,
+				B7C3439D1A97FBB100A510F9 /* AlarmSounds.h */,
+				B7C3439E1A97FBB100A510F9 /* AlarmSounds.m */,
+				B760F2BD1A9D2EF7004DF23D /* SleepMusic.h */,
+				B760F2BE1A9D2EF7004DF23D /* SleepMusic.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B72DD36219E524D6002C79F4 /* Awake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72DD38619E524D6002C79F4 /* Build configuration list for PBXNativeTarget "Awake" */;
+			buildPhases = (
+				B72DD35F19E524D6002C79F4 /* Sources */,
+				B72DD36019E524D6002C79F4 /* Frameworks */,
+				B72DD36119E524D6002C79F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Awake;
+			productName = Awake;
+			productReference = B72DD36319E524D6002C79F4 /* Awake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72DD35B19E524D6002C79F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Grewal Industries";
+				TargetAttributes = {
+					B72DD36219E524D6002C79F4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = WU9HRW5H43;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B72DD35E19E524D6002C79F4 /* Build configuration list for PBXProject "Awake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B72DD35A19E524D6002C79F4;
+			productRefGroup = B72DD36419E524D6002C79F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72DD36219E524D6002C79F4 /* Awake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72DD36119E524D6002C79F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F0FDE11A633BEA005545B7 /* wakeTemp.aif in Resources */,
+				B7C02EA91A8ADDCC00B19211 /* Images.xcassets in Resources */,
+				B7DBB41B1A17FF76009A5B15 /* Default-568h@2x.png in Resources */,
+				B7F0FDE01A633BEA005545B7 /* wakeFadeTemp.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72DD35F19E524D6002C79F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F0FDB61A61F6AE005545B7 /* AudioController.m in Sources */,
+				B7BC73391A35030F006AA60E /* TableAlarmCell.m in Sources */,
+				B78F387D1A841E49009F5F1B /* NA_WeekUnit.m in Sources */,
+				B72DD36F19E524D6002C79F4 /* ViewController.m in Sources */,
+				B7B948FD1A3E4B2F006AE495 /* SWTableViewCell.m in Sources */,
+				B7C02EA61A8AC93E00B19211 /* AlarmStyleButtons.m in Sources */,
+				B7B948FA1A3E4B2F006AE495 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				B7B948FC1A3E4B2F006AE495 /* SWLongPressGestureRecognizer.m in Sources */,
+				B72DD36C19E524D6002C79F4 /* AppDelegate.m in Sources */,
+				B739BCD919F6E58F00B08407 /* TimeHasChanged.m in Sources */,
+				B7B948FF1A3E4B2F006AE495 /* SWUtilityButtonView.m in Sources */,
+				B739BCE519F6FF0300B08407 /* SettingsSign.m in Sources */,
+				B7992EC61A0014240083AD1A /* NA_TimeUnit.m in Sources */,
+				B765DA091AAA127300CF9A90 /* ProgressView.m in Sources */,
+				B790DA0C19E59C2A004C3542 /* GetTimeInFormat.m in Sources */,
+				B72DD36919E524D6002C79F4 /* main.m in Sources */,
+				B739BCE219F6FEE800B08407 /* AlarmList.m in Sources */,
+				B712775A19FB32DF00CD813A /* AlarmText.m in Sources */,
+				B7FF5C1E19FC546D00540117 /* SecondsBarGradient.m in Sources */,
+				B772598019E5EAA0007ED0B3 /* BaseEvent.m in Sources */,
+				B739BCDC19F6E6C600B08407 /* HomePage.m in Sources */,
+				B7B8B4631A1EA1410072DF61 /* ListAlarmsViewController.m in Sources */,
+				B7C02EA31A8AC7C900B19211 /* AlarmStyleButtonsHolder.m in Sources */,
+				B790DA0619E59B0F004C3542 /* Background.m in Sources */,
+				B7FF5C1B19FC17CA00540117 /* SecondsBar.m in Sources */,
+				B7AECE681A05719A003480BD /* NA_CancelSign.m in Sources */,
+				B7992EB71A000F260083AD1A /* NewAlarmViewController.m in Sources */,
+				B772597619E5EA67007ED0B3 /* AlarmHolder.m in Sources */,
+				B760F2BF1A9D2EF7004DF23D /* SleepMusic.m in Sources */,
+				B7B948FE1A3E4B2F006AE495 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				B765DA0C1AAA128500CF9A90 /* SlideView.m in Sources */,
+				B745D0891A68E22000FC80B7 /* SettingsViewController.m in Sources */,
+				B7C3439F1A97FBB100A510F9 /* AlarmSounds.m in Sources */,
+				B7AECE6B1A0571AB003480BD /* NA_ConfirmSign.m in Sources */,
+				B76117471A23BB31008E12A8 /* Colors.m in Sources */,
+				B7C02EAF1A8AE92500B19211 /* SettingsPlistHandler.m in Sources */,
+				B7B948FB1A3E4B2F006AE495 /* SWCellScrollView.m in Sources */,
+				B7E9769019F0727500117C0C /* FileHandler.m in Sources */,
+				B739BCDF19F6FEC600B08407 /* AddSign.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B72DD38419E524D6002C79F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B72DD38519E524D6002C79F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72DD38719E524D6002C79F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = Awake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grewalIndustries.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B72DD38819E524D6002C79F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				INFOPLIST_FILE = Awake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grewalIndustries.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72DD35E19E524D6002C79F4 /* Build configuration list for PBXProject "Awake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72DD38419E524D6002C79F4 /* Debug */,
+				B72DD38519E524D6002C79F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72DD38619E524D6002C79F4 /* Build configuration list for PBXNativeTarget "Awake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72DD38719E524D6002C79F4 /* Debug */,
+				B72DD38819E524D6002C79F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72DD35B19E524D6002C79F4 /* Project object */;
+}
