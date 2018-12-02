@@ -13,7 +13,8 @@ The app was built to run on devices with a rectangular screen, so running on dev
 3. Build and Run
 
 ## Screenshots:
-### Splash Screen, Website Feed and Article
+### Main Screen, Add New Alarm Screen and View Alarms Screen
+![alt text](https://github.com/GrewalAS/Awake/blob/master/main_screen.png) ![alt text](https://github.com/GrewalAS/Awake/blob/master/new_alarm_screen.png) ![alt text](https://github.com/GrewalAS/Awake/blob/master/alarms_screen.png)
 
 ## Notes
 - The program was recently updated so that it builds and runs.
